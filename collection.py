@@ -7,8 +7,8 @@ from icdc.requestswithsystemca import setup_session
 from requests.auth import HTTPBasicAuth
 import os
 
-
-proxies =  {'http': 'http://pxy-http-srv.serv.cdc.fr:8080','https': 'http://pxy-http-srv.serv.cdc.fr:8080'}
+# fill the proxy
+proxies =  {}
 
 
 
@@ -167,7 +167,7 @@ class RobotFramework(Gamera) :
 
 if __name__=="__main__" :
     
-    project = Gamera("ssheickali","ssheickali")
+    project = Gamera("","")
     #project.GetProjectId()
     #print(project.projectId)
     #print(project.GetListTests())
