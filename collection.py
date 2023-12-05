@@ -30,7 +30,7 @@ class Gamera :
         self.gerkhinTestIds = []
         self.gherkinsScript = {}
         self.BddTests = [] 
-        self.gameraApi = "https://gamera.serv.cdc.fr/squash/api/rest/latest/"
+        
                            
         
 
